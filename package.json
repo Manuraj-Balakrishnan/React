@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "I am learning React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuraj-Balakrishnan/React.git"
+  },
+  "author": "Rocky Manu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuraj-Balakrishnan/React/issues"
+  },
+  "homepage": "https://github.com/Manuraj-Balakrishnan/React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
