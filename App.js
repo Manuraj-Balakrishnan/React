@@ -1,9 +1,16 @@
-const parent = React.createElement(
-    "div",
-    {id: "parent"},
-    React.createElement("div",{id: "child"},React.createElement("h1",{},"Hello I'm h1 Tag")
-));
+import React from "react"
+import ReactDOM from "react-dom/client"
+import Header from "./src/components/Header";
+import Body from "./src/components/Body";
 
-const heading = React.createElement("h1",{id: "heading"},"Hello World from Manu in React");
+
+const Layout = () =>
+    (
+    <div className="main-container">
+        <Header />
+        <Body />
+    </div>
+    )
+
 const root = ReactDOM.createRoot(document.querySelector("#root"));
-root.render(parent);
+root.render(<Layout/>);
